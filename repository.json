@@ -1,0 +1,7 @@
+{
+    "owner": "DevOPS Tooling",
+    "description": "Public NPM module for testing publishing workflow",
+    "type": "library",
+    "status": "unreleased",
+    "name": "test-public-npm-module"
+}
