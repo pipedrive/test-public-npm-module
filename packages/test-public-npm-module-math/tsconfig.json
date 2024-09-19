@@ -1,0 +1,25 @@
+{
+    "display": "Default",
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "composite": false,
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "inlineSources": false,
+        "isolatedModules": true,
+        "moduleResolution": "node",
+        "target": "ES2015",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "preserveWatchOutput": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "outDir": "./dist"
+    },
+    "exclude": ["node_modules"],
+    "include": ["src"]
+}
