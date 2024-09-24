@@ -1,7 +1,7 @@
 {
-    "name": "@pipedrive/test-public-npm-module-math",
+    "name": "@pipedrive/test-public-npm-module",
     "version": "0.4.0",
-    "description": "Math for test-public-npm-module",
+    "description": "Public NPM module for testing publishing workflow",
     "main": "./dist/index.js",
     "module": "./dist/esm/index.js",
     "types": "./dist/index.d.ts",
@@ -32,4 +32,4 @@
       "url": "https://github.com/pipedrive/test-public-npm-module/issues"
     },
     "homepage": "https://github.com/pipedrive/test-public-npm-module#readme"
-  }
+}
