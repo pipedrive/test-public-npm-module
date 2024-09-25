@@ -28,6 +28,9 @@
       "test": "jest"
     },
     "license": "SEE LICENSE IN LICENSE.MD",
+    "publishConfig": {
+      "access": "public"
+    },
     "bugs": {
       "url": "https://github.com/pipedrive/test-public-npm-module/issues"
     },
