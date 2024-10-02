@@ -1,38 +1,38 @@
 {
     "name": "@pipedrive/test-public-npm-module",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "Public NPM module for testing publishing workflow",
     "main": "./dist/index.js",
     "module": "./dist/esm/index.js",
     "types": "./dist/index.d.ts",
     "files": [
-      "dist/"
+        "dist/"
     ],
     "devDependencies": {
-      "@types/jest": "29.5.10",
-      "jest": "29.7.0",
-      "ts-jest": "29.1.1",
-      "ts-node": "10.9.1"
+        "@types/jest": "29.5.10",
+        "jest": "29.7.0",
+        "ts-jest": "29.1.1",
+        "ts-node": "10.9.1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/pipedrive/test-public-npm-module.git"
+        "type": "git",
+        "url": "git+https://github.com/pipedrive/test-public-npm-module.git"
     },
     "author": "DevOPS Tooling",
     "scripts": {
-      "build": "tsc -p ./tsconfig.json",
-      "dev": "tsc -p ./tsconfig.json --watch --preserveWatchOutput",
-      "lint": "eslint .",
-      "lint:fix": "eslint . --fix",
-      "format": "prettier . --write",
-      "test": "jest"
+        "build": "tsc -p ./tsconfig.json",
+        "dev": "tsc -p ./tsconfig.json --watch --preserveWatchOutput",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier . --write",
+        "test": "jest"
     },
     "license": "SEE LICENSE IN LICENSE.MD",
     "publishConfig": {
-      "access": "public"
+        "access": "public"
     },
     "bugs": {
-      "url": "https://github.com/pipedrive/test-public-npm-module/issues"
+        "url": "https://github.com/pipedrive/test-public-npm-module/issues"
     },
     "homepage": "https://github.com/pipedrive/test-public-npm-module#readme"
 }
