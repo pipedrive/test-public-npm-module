@@ -8,7 +8,7 @@ on:
 jobs:
   publish:
     if: ${{ github.event.label.name == 'npm-ready-for-publish' }}
-    uses: pipedrive-actions/github-actions-workflows/.github/workflows/reusable_cicd-npm-publish.yml@master
+    uses: pipedrive-actions/github-actions-workflows/.github/workflows/reusable_cicd-npm-publish.yml@DTL-5919-checkout-only-necessary-action-directories-instead-of-whole-gha-setup
     with:
       revision: ${{ github.event.pull_request.head.ref }}
       supported_versions: '[18]'
