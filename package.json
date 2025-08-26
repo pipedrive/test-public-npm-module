@@ -1,6 +1,6 @@
 {
     "name": "@pipedrive/test-public-npm-module",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Public NPM module for testing publishing workflow",
     "main": "./dist/index.js",
     "module": "./dist/esm/index.js",
