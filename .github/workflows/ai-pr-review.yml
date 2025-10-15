@@ -10,7 +10,7 @@ on:
 
 jobs:
   ai-review:
-    if: startsWith(github.event.comment.body, '/review-with') || startsWith(github.event.review.body, '/review-with')
+    if: startsWith(github.event.comment.body, '/review') || startsWith(github.event.review.body, '/review')
     uses: pipedrive/gha-setup/.github/workflows/reusable_ai-pr-review.yaml@master
     with:
       trigger_phrase: ${{ github.event.comment.body || github.event.review.body }}
