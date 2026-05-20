@@ -4,3 +4,5 @@ This repository is used to test the reusable_cicd-npm-publish workflow for publi
 
 
 ## Validate granular token
+
+## Validate NPM Trusted Publishers (OIDC)
