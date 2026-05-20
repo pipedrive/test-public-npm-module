@@ -8,6 +8,9 @@ on:
 jobs:
   publish:
     if: ${{ github.event.label.name == 'npm-ready-for-publish' }}
+    permissions:
+      id-token: write
+      contents: read
     uses: pipedrive-actions/github-actions-workflows/.github/workflows/reusable_cicd-npm-publish.yml@CICDL-258-use-trusted-providers
     with:
       revision: ${{ github.event.pull_request.head.ref }}
