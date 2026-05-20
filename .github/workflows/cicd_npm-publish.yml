@@ -15,6 +15,6 @@ jobs:
     uses: pipedrive-actions/github-actions-workflows/.github/workflows/reusable_cicd-npm-publish.yml@CICDL-258-use-trusted-providers
     with:
       revision: ${{ github.event.pull_request.head.ref }}
-      supported_versions: '[18]'
+      supported_versions: '[22]'
       use_trusted_publisher: true
     secrets: inherit
