@@ -12,7 +12,7 @@ jobs:
       id-token: write   # OIDC npm publish
       contents: write   # repos.merge() in package-checks
       actions: write    # functional test dispatch (drop if skip_functional_tests: true)
-    uses: pipedrive-actions/github-actions-workflows/.github/workflows/reusable_cicd-npm-publish.yml@master
+    uses: pipedrive-actions/github-actions-workflows/.github/workflows/reusable_cicd-npm-publish.yml@CICDL-378-remove-npm-public-publish-token
     with:
       revision: ${{ github.event.pull_request.head.ref }}
       supported_versions: '[22]'
